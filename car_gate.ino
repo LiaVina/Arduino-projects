@@ -69,9 +69,7 @@ void loop(){
       if(password == gate_password){   // if password is correct open the gate
         open_gate();
         delay(2000); 
-
-        close_gate(); ////***////
-
+        close_gate();
       } 
       else {
         Serial.println("Wrong password");
